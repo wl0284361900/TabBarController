@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4180893254FE69900C02DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4180892254FE69900C02DB1 /* Main.storyboard */; };
 		F4786A82254FA1EF00AE61D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A81254FA1EF00AE61D9 /* AppDelegate.m */; };
 		F4786A85254FA1EF00AE61D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A84254FA1EF00AE61D9 /* SceneDelegate.m */; };
 		F4786A8D254FA1F100AE61D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4786A8C254FA1F100AE61D9 /* Assets.xcassets */; };
@@ -26,7 +27,6 @@
 		F4786AF0254FDD7000AE61D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AEE254FDD7000AE61D9 /* SecondViewController.m */; };
 		F4786AF1254FDD7000AE61D9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786AEF254FDD7000AE61D9 /* SecondViewController.xib */; };
 		F4786B00254FDEB300AE61D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AFF254FDEB300AE61D9 /* ViewController.m */; };
-		F4786B08254FDEF500AE61D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4786B07254FDEF500AE61D9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4180892254FE69900C02DB1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4786A7D254FA1EF00AE61D9 /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4786A80254FA1EF00AE61D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4786A81254FA1EF00AE61D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		F4786AEF254FDD7000AE61D9 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		F4786AFE254FDEB300AE61D9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TabBarController/ViewController.h; sourceTree = SOURCE_ROOT; };
 		F4786AFF254FDEB300AE61D9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TabBarController/ViewController.m; sourceTree = SOURCE_ROOT; };
-		F4786B07254FDEF500AE61D9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 				F4786A8E254FA1F100AE61D9 /* LaunchScreen.storyboard */,
 				F4786A91254FA1F100AE61D9 /* Info.plist */,
 				F4786A92254FA1F100AE61D9 /* main.m */,
-				F4786B07254FDEF500AE61D9 /* Main.storyboard */,
+				F4180892254FE69900C02DB1 /* Main.storyboard */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -311,9 +311,9 @@
 				F4786AD0254FA27900AE61D9 /* RedViewController.xib in Resources */,
 				F4786AD8254FA28300AE61D9 /* GreenViewController.xib in Resources */,
 				F4786AE8254FA29900AE61D9 /* BlueViewController.xib in Resources */,
-				F4786B08254FDEF500AE61D9 /* Main.storyboard in Resources */,
 				F4786A90254FA1F100AE61D9 /* LaunchScreen.storyboard in Resources */,
 				F4786AF1254FDD7000AE61D9 /* SecondViewController.xib in Resources */,
+				F4180893254FE69900C02DB1 /* Main.storyboard in Resources */,
 				F4786A8D254FA1F100AE61D9 /* Assets.xcassets in Resources */,
 				F4786AE0254FA28E00AE61D9 /* YellowViewController.xib in Resources */,
 			);

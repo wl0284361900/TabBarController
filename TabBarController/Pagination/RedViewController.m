@@ -22,8 +22,10 @@
 
 - (void)didClickNextView{
     SecondViewController *view = [[SecondViewController alloc]init];
+    
+    //如果要隱藏TabBar的話，可加入下面這行
 //    view.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:view animated:YES];
 }
-
 @end
+
