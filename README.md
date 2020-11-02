@@ -189,4 +189,5 @@ tabBarItem與NavigationItem之間，毫無關聯。
 
 ![](https://i.imgur.com/F29N7BG.png)
 
+https://jiunyijan.medium.com/tabbarcontroller-navigationcontroller%E6%AD%A3%E7%A2%BA%E7%94%A8%E6%B3%95-e7c6c2702cfb
 ###### tags: `Objective-C`
