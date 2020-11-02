@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		F4786A82254FA1EF00AE61D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A81254FA1EF00AE61D9 /* AppDelegate.m */; };
 		F4786A85254FA1EF00AE61D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A84254FA1EF00AE61D9 /* SceneDelegate.m */; };
-		F4786A88254FA1EF00AE61D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A87254FA1EF00AE61D9 /* ViewController.m */; };
-		F4786A8B254FA1EF00AE61D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4786A89254FA1EF00AE61D9 /* Main.storyboard */; };
 		F4786A8D254FA1F100AE61D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4786A8C254FA1F100AE61D9 /* Assets.xcassets */; };
 		F4786A90254FA1F100AE61D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4786A8E254FA1F100AE61D9 /* LaunchScreen.storyboard */; };
 		F4786A93254FA1F100AE61D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A92254FA1F100AE61D9 /* main.m */; };
 		F4786A9D254FA1F100AE61D9 /* TabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786A9C254FA1F100AE61D9 /* TabBarControllerTests.m */; };
 		F4786AA8254FA1F100AE61D9 /* TabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AA7254FA1F100AE61D9 /* TabBarControllerUITests.m */; };
+		F4786ABF254FA25600AE61D9 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786ABE254FA25600AE61D9 /* TabBarViewController.m */; };
+		F4786ACF254FA27900AE61D9 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786ACD254FA27900AE61D9 /* RedViewController.m */; };
+		F4786AD0254FA27900AE61D9 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786ACE254FA27900AE61D9 /* RedViewController.xib */; };
+		F4786AD7254FA28300AE61D9 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AD5254FA28300AE61D9 /* GreenViewController.m */; };
+		F4786AD8254FA28300AE61D9 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786AD6254FA28300AE61D9 /* GreenViewController.xib */; };
+		F4786ADF254FA28E00AE61D9 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786ADD254FA28E00AE61D9 /* YellowViewController.m */; };
+		F4786AE0254FA28E00AE61D9 /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786ADE254FA28E00AE61D9 /* YellowViewController.xib */; };
+		F4786AE7254FA29900AE61D9 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AE5254FA29900AE61D9 /* BlueViewController.m */; };
+		F4786AE8254FA29900AE61D9 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786AE6254FA29900AE61D9 /* BlueViewController.xib */; };
+		F4786AF0254FDD7000AE61D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AEE254FDD7000AE61D9 /* SecondViewController.m */; };
+		F4786AF1254FDD7000AE61D9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786AEF254FDD7000AE61D9 /* SecondViewController.xib */; };
+		F4786B00254FDEB300AE61D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786AFF254FDEB300AE61D9 /* ViewController.m */; };
+		F4786B08254FDEF500AE61D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4786B07254FDEF500AE61D9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +52,6 @@
 		F4786A81254FA1EF00AE61D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4786A83254FA1EF00AE61D9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F4786A84254FA1EF00AE61D9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F4786A86254FA1EF00AE61D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4786A87254FA1EF00AE61D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F4786A8A254FA1EF00AE61D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4786A8C254FA1F100AE61D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4786A8F254FA1F100AE61D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4786A91254FA1F100AE61D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +62,26 @@
 		F4786AA3254FA1F100AE61D9 /* TabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4786AA7254FA1F100AE61D9 /* TabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerUITests.m; sourceTree = "<group>"; };
 		F4786AA9254FA1F100AE61D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4786ABD254FA25600AE61D9 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F4786ABE254FA25600AE61D9 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		F4786ACC254FA27900AE61D9 /* RedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		F4786ACD254FA27900AE61D9 /* RedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		F4786ACE254FA27900AE61D9 /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		F4786AD4254FA28300AE61D9 /* GreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		F4786AD5254FA28300AE61D9 /* GreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		F4786AD6254FA28300AE61D9 /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		F4786ADC254FA28E00AE61D9 /* YellowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		F4786ADD254FA28E00AE61D9 /* YellowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		F4786ADE254FA28E00AE61D9 /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+		F4786AE4254FA29900AE61D9 /* BlueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		F4786AE5254FA29900AE61D9 /* BlueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		F4786AE6254FA29900AE61D9 /* BlueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		F4786AED254FDD7000AE61D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F4786AEE254FDD7000AE61D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F4786AEF254FDD7000AE61D9 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		F4786AFE254FDEB300AE61D9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TabBarController/ViewController.h; sourceTree = SOURCE_ROOT; };
+		F4786AFF254FDEB300AE61D9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TabBarController/ViewController.m; sourceTree = SOURCE_ROOT; };
+		F4786B07254FDEF500AE61D9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +132,20 @@
 		F4786A7F254FA1EF00AE61D9 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				F4786AB8254FA1FC00AE61D9 /* TabBarController */,
+				F4786AB9254FA21600AE61D9 /* Pagination */,
+				F4786AEC254FDD5E00AE61D9 /* SecondView */,
+				F4786AFE254FDEB300AE61D9 /* ViewController.h */,
+				F4786AFF254FDEB300AE61D9 /* ViewController.m */,
 				F4786A80254FA1EF00AE61D9 /* AppDelegate.h */,
 				F4786A81254FA1EF00AE61D9 /* AppDelegate.m */,
 				F4786A83254FA1EF00AE61D9 /* SceneDelegate.h */,
 				F4786A84254FA1EF00AE61D9 /* SceneDelegate.m */,
-				F4786A86254FA1EF00AE61D9 /* ViewController.h */,
-				F4786A87254FA1EF00AE61D9 /* ViewController.m */,
-				F4786A89254FA1EF00AE61D9 /* Main.storyboard */,
 				F4786A8C254FA1F100AE61D9 /* Assets.xcassets */,
 				F4786A8E254FA1F100AE61D9 /* LaunchScreen.storyboard */,
 				F4786A91254FA1F100AE61D9 /* Info.plist */,
 				F4786A92254FA1F100AE61D9 /* main.m */,
+				F4786B07254FDEF500AE61D9 /* Main.storyboard */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -135,6 +166,44 @@
 				F4786AA9254FA1F100AE61D9 /* Info.plist */,
 			);
 			path = TabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		F4786AB8254FA1FC00AE61D9 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F4786ABD254FA25600AE61D9 /* TabBarViewController.h */,
+				F4786ABE254FA25600AE61D9 /* TabBarViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		F4786AB9254FA21600AE61D9 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				F4786ACC254FA27900AE61D9 /* RedViewController.h */,
+				F4786ACD254FA27900AE61D9 /* RedViewController.m */,
+				F4786ACE254FA27900AE61D9 /* RedViewController.xib */,
+				F4786AD4254FA28300AE61D9 /* GreenViewController.h */,
+				F4786AD5254FA28300AE61D9 /* GreenViewController.m */,
+				F4786AD6254FA28300AE61D9 /* GreenViewController.xib */,
+				F4786ADC254FA28E00AE61D9 /* YellowViewController.h */,
+				F4786ADD254FA28E00AE61D9 /* YellowViewController.m */,
+				F4786ADE254FA28E00AE61D9 /* YellowViewController.xib */,
+				F4786AE4254FA29900AE61D9 /* BlueViewController.h */,
+				F4786AE5254FA29900AE61D9 /* BlueViewController.m */,
+				F4786AE6254FA29900AE61D9 /* BlueViewController.xib */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		F4786AEC254FDD5E00AE61D9 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				F4786AED254FDD7000AE61D9 /* SecondViewController.h */,
+				F4786AEE254FDD7000AE61D9 /* SecondViewController.m */,
+				F4786AEF254FDD7000AE61D9 /* SecondViewController.xib */,
+			);
+			path = SecondView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +308,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4786AD0254FA27900AE61D9 /* RedViewController.xib in Resources */,
+				F4786AD8254FA28300AE61D9 /* GreenViewController.xib in Resources */,
+				F4786AE8254FA29900AE61D9 /* BlueViewController.xib in Resources */,
+				F4786B08254FDEF500AE61D9 /* Main.storyboard in Resources */,
 				F4786A90254FA1F100AE61D9 /* LaunchScreen.storyboard in Resources */,
+				F4786AF1254FDD7000AE61D9 /* SecondViewController.xib in Resources */,
 				F4786A8D254FA1F100AE61D9 /* Assets.xcassets in Resources */,
-				F4786A8B254FA1EF00AE61D9 /* Main.storyboard in Resources */,
+				F4786AE0254FA28E00AE61D9 /* YellowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4786A88254FA1EF00AE61D9 /* ViewController.m in Sources */,
+				F4786AF0254FDD7000AE61D9 /* SecondViewController.m in Sources */,
+				F4786ABF254FA25600AE61D9 /* TabBarViewController.m in Sources */,
 				F4786A82254FA1EF00AE61D9 /* AppDelegate.m in Sources */,
 				F4786A93254FA1F100AE61D9 /* main.m in Sources */,
+				F4786B00254FDEB300AE61D9 /* ViewController.m in Sources */,
+				F4786ADF254FA28E00AE61D9 /* YellowViewController.m in Sources */,
+				F4786ACF254FA27900AE61D9 /* RedViewController.m in Sources */,
+				F4786AD7254FA28300AE61D9 /* GreenViewController.m in Sources */,
 				F4786A85254FA1EF00AE61D9 /* SceneDelegate.m in Sources */,
+				F4786AE7254FA29900AE61D9 /* BlueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4786A89254FA1EF00AE61D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4786A8A254FA1EF00AE61D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4786A8E254FA1F100AE61D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
